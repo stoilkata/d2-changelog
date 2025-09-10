@@ -258,3 +258,8 @@ Natalya, Aldur, Immortal King, Griswold and Mavina's weapons removed from the se
 
 
 Secret Cow Level can now be opened with Key + Tome of Portals
+
+------------
+Druid: Can summon all animals at once - 5 wolves, 3 dire wolves and bear
+
+Uber diablo is in place of Bonesaw Breaker in Glacial Trail. Has Diablo Hell drop + annihilus and torch
