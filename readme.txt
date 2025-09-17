@@ -263,3 +263,347 @@ Secret Cow Level can now be opened with Key + Tome of Portals
 Druid: Can summon all animals at once - 5 wolves, 3 dire wolves and bear
 
 Uber diablo is in place of Bonesaw Breaker in Glacial Trail. Has Diablo Hell drop + annihilus and torch
+
+
+
+
+
+
+-----------------------------------------------
+New runewords:
+
+Knowledge
+4 Socket Armor
+Shael + Um + Shael + Vex
++1 To All Skills
++40 Faster Hit Recovery
+20% Increased Chance Of Blocking
+150-200% Enhanced Defense (varies)
+Replenish Life +10
+Regenerate Mana 10%
++5% To Maximum Fire Resist
++30-40 All Resistances (varies)
++5-15% To Experience Gained (varies)
+
+
+2 Socket Helms
+Lum + Ist
++2 To All Skill Levels
++10 To Energy
++60 To Life
++30-50% Magic Find (Varies)
++5-20% All resistances(Varies)
++30% Faster Hit Recovery
+Reduced Vendor Prices 15-30%(Varies)
+
+
+
+4 Socket Armors
+Ist + Ist + Ist + Ist
+1 To All Skills
++20% Faster Cast Rate
++20 All Resistances
+250% Better Chance Of Getting Magic Items
+2-173% Better Chance Of Getting Magic Items ( 1.74% Based On Character's Level)
+
+
+
+Whisper (Barbarian)
+3 Socket Barbarian Helmets
+Um + Lo + Shael
++2 Barbarian Skills
++20% Faster Hit Recovery
++30-40 Damage (varies)
++350-450 Attack Rating (varies)
++5% to Maximum Lighting Resist
++35% All Resistances
+
+
+
+Vengeance
+3 socket shields
+Um / Shael / Ist
+
++1 to All Skils
++20% Faster Cast Rate
++20% Faster Block Rate
+30% Increased Chance Of Blocking
++22-27 All Resistances (varies)
+Cannot Be Frozen
+30-35% Better Chance of Getting Magic Items (varies)
+
+
+
+
+Trust
+Shael / Um / Zod / Ber
+4 socket armor
+
+Indestructible
++2 To All Skills
++20% Faster Hit Recovery
++250-300% Enhanced Damage (varies)
++80-100% Enhanced Defense (varies)
++10 To All Attributes
+All Resistances +15-30 (varies)
+Damage Reduced by 8%
+
+
+
+Truth
+Ber / Pul / Ber / Um
+4 socket shields
+
+Level 8-12 Redemption Aura When Equipped (varies)
++2-3 To All Skills (varies)
++30% Faster Block Rate
++30% Increased Chance of Blocking
++30% Enhanced Defense
++30 To Strength
+All Resistances +30-45
+Damage Reduced By 16%
+Cannot Be Frozen
+
+
+
+Unbending Will
+4 socket shields
+Vex / Um / Lo / Jah
+
+Indestructible
++25% Increased Attack Speed
++35% Faster Block Rate
+35% Increased Chance of Blocking
++2-247 Defense (2.5 Defense Per Character Level)
++40 to Strength
++50 Life
++5% to Maximum Lightning Resist
++5% to Maximum Fire Resist
++22% To All Resistances
+Damage Reduced by 25-35% (varies)
+
+
+ Voice
+Two socket wands, orbs
+Jah / Sur
+
++2-3 to All Skills (varies)
++50% Faster Cast Rate
+Ignore Target Difense
+Hit Blinds Target
++10 all attributes
+Increase max mana 10%
+Regenerate mana 10%
+All Resistances +35-50 (varies)
+
+
+
+Voice  (Barb Helms or Pelts)
+Two socket druid, barbarian helms
+Jah / Sur
+
++2-3 to All Skills (varies)
++50% Faster Cast Rate
++10 all attributes
+Increase Maximum Life 5%
+Increase Maximum Mana 15%
+Regenerate mana 10%
+All Resistances +35-50 (varies)
+
+
+
+Void
+6 socket weapons
+Zod / Shael / Mal / Ber / Eth / Ber
+
+Indestructible
++45-60% Increased Attack Speed
+400% Enhanced Damage
+-25% To Target Defense
++30%-50% Bonuse to Attack Rating
++5%-8% Mana Stolen per Hit
+40% Chance Of Crushing Blow
+Prevent Monsters Heal
++20 Strenght
++20 Dextirity
+
+
+
+Plague
+4 socket Shields
+Shael/ Um/ Um / Ber
+
++2 To Amazon Skills 
++ 1-3 To Plague Javelin
++ 1-3 To Poison Javelin
++25% Faster Cast Rate
++25% Increased Attack Speed
++All Resistances +30
++8% Damage reduced
++20% Faster Block Rate
+
+
+
+Hand Of Midas
+6 socket Weapon
+Lem/ Lem/ Lem/ Lem/ Lem/ Lem/
+
++20% Faster Cast Rate
++20% Faster Run Walk
++450% Extra Gold From Monsters
++2-173% Extra Gold From Monsters (1.74% % Extra Gold per Level Based On Character's Level)
++40-50 To Mana (varies)
++ Prevent Monster Heal
++ (1) To Find Item
+
+
+
+
+ Tyrael's Gloria
+2 socket Diadem
+Zod/ Jah
+(Eps Rune = 3 Zod Runes)
+
++ 2-3 To All Skills (varies)
++ 20% Faster Cast Rate
++ 150 Defense
++ 5-10 To All Attributes (varies)
++ Increase Maximum Life 5%
++ All Resistances +15-30 (Varies)
++ 100% Better Chance Of Getting Magic Items
+
+
+
+Loyality
+6 socket Swords
+Fal/ Dol/ Vex/ Io/ Lum/ Mal
+
++ 2-3 To Barb Skills Levels
++ 2-4 To Warcry
++ 20-30% Faster Cast Rate
++20-30% Faster Hit Recovery
++ 10 To Strenght
++ 10 To Vitality
++ 10 To Energy 
++ 7% Mana Stolen Per Hit
+Hit Causes Monsters To Flee 25%
+Prevent Monster Heal
+
+
+
+Hustle (Weapon)
+3 socket Weapons
+Shael / Ko / Eld
+
+5% Chance to cast level 1 Burst of Speed on striking
+Level 1 Fanaticism Aura
++30% Increased Attack Speed
++180-200% Enhanced Damage
++75% Damage to Undead
++50 to Attack Rating against Undead
++10 to Dexterity
+
+
+
+Hustle (Armor)
+3 socket Armor
+Shael / Ko / Eld
+
++65% Faster Run/Walk
++40% Increased Attack Speed
++20% Faster Hit Recovery
++6 to Evade
++10 to Dexterity
+50% Slower Stamina Drain
++All Resistances +10
+
+
+
+Flickering flame
+3 socket Helm
+
+Nef / Pul / Vex
+
+Level 4-8 Resist Fire Aura When Equipped
++3 To Fire Skills
+-10-15% to Enemy Fire Resist
++30% Enhanced Defense
++30 Defense vs. Missile
++50-75 To Mana
+Half Freeze Duration
++5% To Maximum Fire Resist
+Poison Length Reduced by 50%
+
+
+Bulwark
+3 socket Helm
+
+Shael / Io / Sol
+
++20% Faster Hit Recovery
++4-6% Life stolen per hit
++75-100% Enhanced Defense
++10 to Vitality
+Increase Maximum Life 5%
+Replenish Life +30
+Damage Reduced by 7
+Physical Damage Received Reduced by 10-15%
+
+
+Ground
+3 socket Helm
+
+Shael / Io / Ort
+
++20% Faster Hit Recovery
++75-100% Enhanced Defense
++10 to Vitality
+Increase Maximum Life 5%
+Lightning Resist +40-60%
+Lightning Absorb +10-15%
+
+
+Cure
+3 socket Helm
+
+Shael / Io / Tal
+
++20% Faster Hit Recovery
++10 to Vitality
+Poison Resist +30%
+Level 1 Cleansing Aura when Equipped
++75-100% Enhanced Defense
+Increase Maximum Life 5%
+Poison Resist +10-30% (+40-60% total)
+Poison Length Reduced by 50%
+
+Metamorphosis
+3 socket Helm
+
+Io / Cham / Fal
+
++10 to Vitality
+Cannot be Frozen
++10 to Strength
+Werewolf strikes grant Mark for 180 seconds
+    Mark of the wolf:
+        30% Bonus to Attack Rating
+        Increase Maximum Life 40%
+Werebear strikes grant Mark for 180 seconds
+    Mark of the bear:
+        +25% Attack Speed
+        Physical Damage Received Reduced by 20%
++5 to Shape Shifting Skills (Druid Only)
++25% chance of Crushing Blow
++50% to 80% Enhanced Defense
+All Resistances +10
+
+
+Additional changes:
+
+Necromancer: Corpse Explosion damage increased to 40-80%
+
+Added tome of portal, tome of identify and horadric cube to starting items
+
+
+Elder monsters in Infernal Pit
