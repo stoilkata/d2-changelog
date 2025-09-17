@@ -286,6 +286,7 @@ Regenerate Mana 10%
 +5-15% To Experience Gained (varies)
 
 
+Piety
 2 Socket Helms
 Lum + Ist
 +2 To All Skill Levels
@@ -297,7 +298,7 @@ Lum + Ist
 Reduced Vendor Prices 15-30%(Varies)
 
 
-
+Tempest
 4 Socket Armors
 Ist + Ist + Ist + Ist
 1 To All Skills
@@ -607,3 +608,39 @@ Added tome of portal, tome of identify and horadric cube to starting items
 
 
 Elder monsters in Infernal Pit
+
+
+
+
+
+--------------------------------------
+
+Blood
+Helm
+
+Ko Gul Um
+
+1 to Traps [Assassin Only]
+1 to Assassins Skills
+15% Increase Attack Speed
+1 to Lightning Sentry [Assassin Only]
+7 to Streght
+10 to Dexterity
+45 to Life
+5% to Maximum Poison Resist
+All Resistances 15
+
+
+
+Terror (Paladin)
+4 Socket Paladin Shields
+Eth + Tal + Eld +Amn
++20 All Resistances
++50-80 Life(varies)
++50 Defense Vs. Missile
+20% Increased Chance of Blocking
+40% Faster Block Rate
+25% Faster Cast Rate
+1 Paladin Skill Levels
+
+
