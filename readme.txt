@@ -644,3 +644,258 @@ Eth + Tal + Eld +Amn
 1 Paladin Skill Levels
 
 
+------------------------------------
+
+Caster Crafts:
+
+Helm
+Magic Find | 40-60
+Mana | 20-40
+Energy | 15-20
+
+
+Boots
+Magic Find | 20-40
+Mana | 20-40
+FCR | 5-15
+
+Gloves
+Magic Find | 20-40
+Mana | 20-40
+FCR | 5-15
+
+Belt
+Magic Find | 20-40
+Mana | 20-40
+FCR | 5-15
+
+Shield
+FCR | 10-30
+Mana | 20-40
+Block% | 10-20
+
+Armor
+FCR | 10-30
+Mana | 40-70
+Magic Find | 50-100
+
+Amulet
+FCR | 5-10
+Mana | 20-40
+Energy | 15-20
+
+Ring
+Mana regen | 5-10
+Mana | 10-25
+Energy | 10-15
+
+Weapon
+FCR | 10-20
+Mana | 30-60
+Mana% | 5-15
+
+
+Blood Crafts:
+
+Helm
+IAS | 5-20
+HP | 40-60
+Crushing Blow | 5-10
+
+Boots
+HP | 40-60
+Open Wounds | 5-10
+Deadly Strike | 5-10
+
+Gloves
+IAS | 5-10
+Open Wounds | 5-10
+Crushing Blow | 5-10
+
+Belt
+IAS | 5-10
+HP | 40-60
+Open Wounds | 5-10
+
+Shield
+HP | 50-100
+Vita | 10-20
+Str | 10-20
+
+Armor 
+HP | 50-100
+Str | 10-20
+Enhanced DMG | 75-180%
+
+Amulet
+LL | 2-4
+HP | 25-50
+Str | 7-15
+
+Ring
+LL | 2-4
+HP | 20-40
+Str | 5-10
+
+Weapon
+Crushing Blow | 5-10
+Enhanced DMG | 120-200
+IAS | 10-20
+Deadly Strike | 5-10
+
+
+Hit Power Crafts:
+
+Helm
+Dex | 5-15
+IAS | 10-20
+All res | 10-20
+
+Boots
+FRW | 5-15
+Str | 5-15
+AR | 100-200
+
+Gloves
+Str | 5-15
+Dex | 5-10
+Knockback
+
+Belt
+5% Chance to cast Lvl 6 Enchant on hit
+Dex | 5-15
+Str | 5-15
+
+Shield 
+AR% | 20-30
+Block% | 5-10
+FBR | 10-20
+
+Armor
+Dex | 15-30
+AR | 150-250
+Enhanced DMG | 75-130
+
+Amulet 
+AR | 50-150
+Str | 5-10
+5% Chance to cast Lvl 4 Frost nova on hit
+
+Ring
+AR | 50-150
+Dex | 5-10
+5% Chance to cast Lvl 4 Frost nova on hit
+
+Weapon
+10% Chance to cast Lvl 4 Lower Resist on hit
+Enhanced DMG | 80-180
+AR% | 35-60
+IAS | 10-20
+
+
+
+Safety Crafts:
+
+
+Helm
+HP | 50-100
+Max Light Res | 5-10
+Light res | 15-30
+
+Boots
+10% Chance to cast Lvl 10 Fade when struck
+Max Fire Res | 5-10
+Fire Res | 15-30
+
+Gloves
+DR | 5-10
+Max Cold Res | 5-10
+Cold Res | 15-30
+
+Belt
+DR | 5-10
+Max Poison Res | 5-10
+Poison Res | 15-30
+
+Shield
+10% Chance to cast Lvl 10 Holy Shield when struck
+HP% | 5-10
+Magic Res | 15-30
+
+Armor
+All res | 20-50
+Enhanced Def | 200-300
+HP | 80-120
+
+Amulet
+10% Chance to cast Lvl 6 Chilling armor when struck
+Magic res | 5-10
+Block | 5-15
+
+Ring
+HP | 30-60
+Magic Res | 5-10
+Vita | 10-20
+
+
+Weapon
+DR | 5-10
+HP% | 10-20
+Enhanced Def | 5-10
+
+
+
+
+\ud83c\udf1f New Unique Items
+
+Chain of the Ravager, Colossus Girdle (Belt) - ilvl 85, req lvl 81
+
++15% Increased Attack Speed
++100 to Attack Rating
++10-20% Mana Leech (varies)
++15% Deadly Strike
++10-20 to Strength (varies)
++20% Crushing Blow
+
+
+Ironhowl Grips, Vampirebone Gloves (Gloves) - ilvl 85, req lvl 74
+
++20% Increased Attack Speed
++10-20 to Strength (varies)
++10-20 to Dexterity (varies)
+Lightning Resist +15-25% (varies)
+
+
+
+🔄 Updated Unique Items
+
+Tyrael's Might
++1 to Teleport
++2-3 to All Skills (varies)
+Level 5-10 Redemption Aura When Equipped (varies)
+
+
+Templar's Might
++1 to Teleport
++1-3 to Class Skills (varies)
+
+
+
+
+
+
+⚔️ Updated Mercenaries
+
+Act 2 Hell:
+Defensive - Level 16 Salvation
+Offensive - Level 16 Concentration
+Combat - Level 16 Redemption
+
+Act 3 Hell:
+Cold - Level 10 Meditation
+Fire - Level 1 Conviction
+Lightning - Level 10 Vigor
+
+Act 5 Hell:
+Battle Orders - Level 11
+Shout - Level 5
