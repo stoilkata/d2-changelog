@@ -899,3 +899,116 @@ Lightning - Level 10 Vigor
 Act 5 Hell:
 Battle Orders - Level 11
 Shout - Level 5
+
+
+
+
+
+
+------------------------
+Assassin:
+
+Wake of Fire synergy damage increased from 11% to 16%
+
+Blade Sentinel
+. Casting Delay reduced from 2 seconds to 1 second
+• Missile speed increased by 20%
+. Weapon Damage increased from 37% to 75%
+. Blade Fury synergy added: +10% Damage per level .
+ Blade Shield synergy added: +10% Damage per level
+
+Blade Fury
+◦ Blade Sentinel synergy added: +10% Damage per level
+ Blade Shield synergy added:-+10% Damage per level 
+
+Blade Shield
+Duration baseline value increased from 20 seconds to 120 seconds
+Duration scaling per level increased from 5 seconds to 12 seconds
+. Weapon Damage increased from 25% to 75%
+ Blade Sentinel synergy added:+10% Damage per level .
+ Blade Fury synergy added: +10% Damage per level
+
+
+
+Sorc:
+Frost nova damage scaling increased with ~25%
+Frost nova synergies damage increased from 10% to 12%
+
+
+Barbarian:
+Masteries base attack rating increased to 40%
+Berserk - Synergy Shout replaced with Battle Orders
+
+
+Paladin:
+Holy Bolt - Removed Blessed Hammer synergy
+Holy Bolt - Increased damage scaling by 50%
+
+
+new runewords:
+
+
+Cataclysm
+Zod Ber Shael Ber
+(4 socket armor)
+
+Indestructible
++20% faster hit recovery
++330-350% enhanced damage (varies)
++250 to attack rating
+15% crushing blow
+15% deadly strike
++250% enhanced defense
++15-25 to all attributes
++Life (based on character level)
+Damage reduced by 16%
+ 
+Seraphim
+Jah Shael Jah
+(3 socket helms)
+
++2 to all skills
++15-25% faster cast rate (varies)
++20% faster hit recovery
++20 to all attributes
+Increase maximum life 10%
+All resistances +15-25(varies)
+Damage reduced by 10-20% (varies)
+
+
+Thauric 
+Shael Gul Shael Ber Eth Lo
+(6 socket swords/axes)
+
++1 to all skills
++40% increased attack speed
+Damage +350-400 (varies)
+-25% target defense
+20% bonus to attack rating
++250 to attack rating
+20% chance of crushing blow
+0.5-49% Deadly strike (based on character level)
+All resistances +20-30
+
+
+new unique items:
+
+Dragon Slayer
+Bramble Mitts
+
+20% FCR
+3 all attributes
+20 mana
+Magic dmg reduced by 20
+30% MF
+
+
+Archmage's Soul
+Wyrmhide Boots
+
+1 to All skills
+20% FRW
+20% FHR
+100-150% Enhanced defense (varies)
+Half Freeze Duration
+Repairs 1 durability in 20 seconds
