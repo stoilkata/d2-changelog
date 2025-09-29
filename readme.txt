@@ -1021,7 +1021,6 @@ Repairs 1 durability in 20 seconds
 
 
 
---------------------------
 druid:
 molten boulder - doubled travel speed and increased synergy from volcano 10->12%
 volcano - increased synergy from molten boulder 12->16%
@@ -1029,3 +1028,41 @@ armageddon - removed requirement of hurricane, increased missile damage radius b
 
 assassin:
 fix synergies for blade fury, blade sentinel and blade shield
+
+
+
+
+
+
+
+
+
+------------------------------------
+assassin:
+improved wake of fire damage scaling
+
+sorc:
+frost nova synergies dmg increased 12->18%
+nova - added 5% dmg per lvl synergy with static Field
+thunderstorm
+
+nec:
+bone spirit - synergies dmg increased from 6 to 7%
+bone spear - synergies dmg increased from 7 to 8%
+bone armor - dmg absorb per lvl from 10 to 15
+
+druid:
+spirit wolf, dire wolf and grizzly - hp and damage increased by nearly 
+
+amazon:
+guided arrow - added damage component and multiple shot synergy 12% damage
+multiple shot - added damage component and guided arrow synergy 12% damage
+ice arrow, freezing arrow and exploding arrow now shoot 5 arrows
+
+barbarian:
+war cry - improved dmg scaling, increased range by ~25%, lowered base mana cost from 10 to 2, then 1 per lvl
+
+
+swampy pit density reduced to normal
+pit level 1 and level 2 density increased 5 times
+
