@@ -967,8 +967,8 @@ Seraphim
 Jah Shael Jah
 (3 socket helms)
 
-+2 to all skills
-+15-25% faster cast rate (varies)
++2-3 to all skills
++20-25% faster cast rate (varies)
 +20% faster hit recovery
 +20 to all attributes
 Increase maximum life 10%
@@ -1012,3 +1012,20 @@ Wyrmhide Boots
 100-150% Enhanced defense (varies)
 Half Freeze Duration
 Repairs 1 durability in 20 seconds
+
+
+
+
+
+
+
+
+
+--------------------------
+druid:
+molten boulder - doubled travel speed and increased synergy from volcano 10->12%
+volcano - increased synergy from molten boulder 12->16%
+armageddon - removed requirement of hurricane, increased missile damage radius by 33%, increased missile drop rate by 30%, volcano synergy incrased from 14->18% (physical), added physical dmg component
+
+assassin:
+fix synergies for blade fury, blade sentinel and blade shield
