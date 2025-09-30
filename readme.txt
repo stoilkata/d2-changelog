@@ -1066,3 +1066,31 @@ war cry - improved dmg scaling, increased range by ~25%, lowered base mana cost 
 swampy pit density reduced to normal
 pit level 1 and level 2 density increased 5 times
 
+---------------------------------
+
+assassin:
+shadow master/warrior casting delay reduced to 0.6s
+
+amazon:
+valkyrie casting delay reduced to 0.6s
+
+
+
+added 2 new unique charms - small charm and large charm
+Guru's Left Nut - 
+Small Charm
+
+Drops from Duriel, Mephisto, Diablo Hell
+
++15-20 life (varies)
++10-20 all res (varies)
+
+Guru's Right Nut
+Large Charm
+
+Drops Mephisto, Diablo Hell
+
+1.5max dmg/lvl
+83 attack rating
+11% mana Leech
+2-7% life leech (varies)
