@@ -1094,3 +1094,40 @@ Drops Mephisto, Diablo Hell
 83 attack rating
 11% mana Leech
 2-7% life leech (varies)
+
+
+
+
+
+
+---------------------------
+
+
+druid:
+increase damage of wolves and grizzly by a lot
+spirit wolf - can summon 8
+dire wolf - can summon 5
+grizzly - can summon 3
+can summon all 3 spirits at once - oak sage, heart of the wolverine, spirit of barbs
+
+
+sets:
+Sazabi set - removed weapon and added bonuses from d2r - can be used as merc set
++16% DR
+Poison length reduced by 75%
+1 all skills
+
+
+cube recipes:
+
+2x portal + rare/set armor/weapon = +1-2 socket
+
+
+
+new merceneries: (there is no description ingame for them!)
+Act3 Bone - Casts Teeth, Bone Spear, Amplify Damage
+Act3 Poison - Casts Teeth, Poison Nova, Lower Resist
+
+
+quests:
+Akara and Larzuk quests are repeatable
