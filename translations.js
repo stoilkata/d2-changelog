@@ -1,107 +1,10 @@
-// Translations for Oblivion Diablo 2 Server Website
+// Translations for Oblivion Diablo 2 Changelog
 const translations = {
     en: {
         // Navigation
         nav: {
-            home: "Home",
-            downloads: "Downloads",
-            discord: "Discord",
-            changelog: "Changelog"
+            title: "OBLIVION CHANGELOG"
         },
-        
-        // Hero Section
-        hero: {
-            title: "Welcome to",
-            titleHighlight: "OBLIVION",
-            subtitle: "The Ultimate Diablo 2 Server Experience",
-            description: "Enter a realm of darkness and glory. Experience Diablo 2 like never before with enhanced mercenaries, balanced gameplay, and an active community. Your journey into Oblivion awaits.",
-            downloadBtn: "Download Now",
-            discordBtn: "Join Discord"
-        },
-        
-        // Features Section
-        features: {
-            title: "Why Choose Oblivion?",
-            terrorZones: {
-                title: "Terror Zones",
-                description: "Dynamic terror zones that change every 30 minutes, providing endless challenge and variety with increased density and rewards."
-            },
-            storage: {
-                title: "Enhanced Storage",
-                description: "Bigger stash, cube and inventory with dedicated charm zone. Store more items and organize your gear efficiently."
-            },
-            maphack: {
-                title: "Integrated Maphack",
-                description: "Maphack with skill build support, auto stashing of gems/runes, quick move items and many other quality of life features."
-            },
-            updates: {
-                title: "Regular Updates",
-                description: "Continuous improvements and new content to keep the game fresh and exciting."
-            },
-            crafting: {
-                title: "Improved Crafting",
-                description: "Enhanced crafting system with new recipes, better odds, and powerful crafted items to suit all playstyles."
-            },
-            stackable: {
-                title: "Stackable Runes & Gems",
-                description: "Runes and gems now stack up to 50 items, saving precious inventory space and improving organization."
-            }
-        },
-        
-        // Downloads Section
-        downloads: {
-            title: "Downloads",
-            client: {
-                title: "Oblivion Client",
-                description: "Download the complete Oblivion client with all modifications included.",
-                version: "Version",
-                size: "Size",
-                button: "Download Client"
-            },
-            launcher: {
-                title: "Game Launcher",
-                description: "Download our game launcher for easy updates and game management.",
-                version: "Version",
-                size: "Size",
-                button: "Download Launcher"
-            },
-            installation: {
-                title: "Installation Guide",
-                clientTitle: "For Oblivion Client:",
-                launcherTitle: "For Game Launcher:",
-                client: {
-                    step1: "Download the client",
-                    step2: "Run the reg file",
-                    step3: "Create an account from inside the game",
-                    step4: "Have fun!"
-                },
-                launcher: {
-                    step1: "Download the launcher",
-                    step2: "Click install",
-                    step3: "Create an account from inside the game",
-                    step4: "Have fun!"
-                }
-            }
-        },
-        
-        // Discord Section
-        discord: {
-            title: "Join Our Community",
-            serverTitle: "🎮 Oblivion Discord Server",
-            description: "Connect with fellow adventurers, find trading partners, organize parties, and stay updated with the latest news.",
-            features: {
-                terrorZones: "✅ Terror zone announcements",
-                support: "✅ Technical support",
-                events: "✅ Community events",
-                trading: "✅ Trade"
-            },
-            button: "Join Discord Server",
-            stats: {
-                online: "Online",
-                members: "Members"
-            }
-        },
-        
         // Changelog Section
         changelog: {
             title: "Latest Updates & Changelog",
@@ -161,12 +64,6 @@ const translations = {
             act5: "❄️ Act 5"
         },
         
-        // Footer
-        footer: {
-            copyright: "© 2024 Oblivion Diablo 2 Server - Stay awhile and listen...",
-            tagline: "Enter the darkness, embrace the chaos, ascend to glory."
-        },
-        
         // Language Selector
         language: {
             label: "Language",
@@ -178,103 +75,7 @@ const translations = {
     bg: {
         // Navigation
         nav: {
-            home: "Начало",
-            downloads: "Изтегляния",
-            discord: "Discord",
-            changelog: "Промени"
-        },
-        
-        // Hero Section
-        hero: {
-            title: "Добре дошли в",
-            titleHighlight: "OBLIVION",
-            subtitle: "Най-доброто Diablo 2 сървър преживяване",
-            description: "Влезте в царство на мрак и слава. Изживейте Diablo 2 както никога преди това с подобрени наемници, балансиран геймплей и активна общност. Вашето пътешествие в Oblivion ви очаква.",
-            downloadBtn: "Изтегли сега",
-            discordBtn: "Присъедини се към Discord"
-        },
-        
-        // Features Section
-        features: {
-            title: "Защо да изберете Oblivion?",
-            terrorZones: {
-                title: "Зони на терора",
-                description: "Динамични зони на терора, които се променят на всеки 30 минути, осигуряващи безкрайно предизвикателство и разнообразие с увеличена плътност и награди."
-            },
-            storage: {
-                title: "Подобрено съхранение",
-                description: "По-голям склад, куб и инвентар с отделена зона за чармове. Съхранявайте повече предмети и организирайте екипировката си ефективно."
-            },
-            maphack: {
-                title: "Интегриран мапхак",
-                description: "Мапхак с поддръжка за skill build-ове, автоматично съхранение на скъпоценни камъни/руни, бързо местене на предмети и много други удобства."
-            },
-            updates: {
-                title: "Редовни актуализации",
-                description: "Непрекъснати подобрения и ново съдържание, за да запазим играта свежа и вълнуваща."
-            },
-            crafting: {
-                title: "Подобрена изработка",
-                description: "Подобрена система за изработка с нови рецепти, по-добри шансове и мощни изработени предмети за всички стилове на игра."
-            },
-            stackable: {
-                title: "Натрупващи се руни и скъпоценни камъни",
-                description: "Руните и скъпоценните камъни сега се натрупват до 50 предмета, спестявайки ценно място в инвентара и подобрявайки организацията."
-            }
-        },
-        
-        // Downloads Section
-        downloads: {
-            title: "Изтегляния",
-            client: {
-                title: "Oblivion клиент",
-                description: "Изтеглете пълния Oblivion клиент с всички включени модификации.",
-                version: "Версия",
-                size: "Размер",
-                button: "Изтегли клиент"
-            },
-            launcher: {
-                title: "Игрален стартер",
-                description: "Изтеглете нашия игрален стартер за лесни актуализации и управление на играта.",
-                version: "Версия",
-                size: "Размер",
-                button: "Изтегли стартер"
-            },
-            installation: {
-                title: "Ръководство за инсталация",
-                clientTitle: "За Oblivion клиент:",
-                launcherTitle: "За игрален стартер:",
-                client: {
-                    step1: "Изтеглете клиента",
-                    step2: "Стартирайте reg файла",
-                    step3: "Създайте акаунт от играта",
-                    step4: "Забавлявайте се!"
-                },
-                launcher: {
-                    step1: "Изтеглете стартера",
-                    step2: "Натиснете инсталирай",
-                    step3: "Създайте акаунт от играта",
-                    step4: "Забавлявайте се!"
-                }
-            }
-        },
-        
-        // Discord Section
-        discord: {
-            title: "Присъединете се към нашата общност",
-            serverTitle: "🎮 Oblivion Discord сървър",
-            description: "Свържете се с други авантюристи, намерете търговски партньори, организирайте групи и бъдете в крак с последните новини.",
-            features: {
-                terrorZones: "✅ Обяви за зони на терора",
-                support: "✅ Техническа поддръжка",
-                events: "✅ Общностни събития",
-                trading: "✅ Търговия"
-            },
-            button: "Присъедини се към Discord сървъра",
-            stats: {
-                online: "Онлайн",
-                members: "Членове"
-            }
+            title: "OBLIVION CHANGELOG"
         },
         
         // Changelog Section
@@ -334,49 +135,6 @@ const translations = {
             act3: "🌴 Акт 3",
             act4: "🔥 Акт 4",
             act5: "❄️ Акт 5"
-        },
-        
-        // Skills and Items
-        skills: {
-            corpseExplosion: "Взрив на труп",
-            lifeTap: "Кран на живота",
-            amplifyMagic: "Усили магия",
-            raiseSkeletalMage: "Призови скелетен маг",
-            skeletons: "Скелети",
-            boneSpear: "Костна пика",
-            poisonOrb: "Отровния глоб",
-            pestilence: "Мор",
-            boneSpirit: "Костен дух",
-            boneArmor: "Костна броня",
-            revive: "Възкресение",
-            deathSentry: "Смърт стража",
-            cloakOfShadows: "Плащ на сенките",
-            dragonTail: "Драконов опашка",
-            chargeUpSkills: "Умения с натрупване",
-            bladeStorm: "Буря от остриета",
-            bladeToss: "Хвърляне остриета",
-            bladeShield: "Щит на остриеца",
-            warCry: "Боен вик",
-            cleave: "Разцепвам",
-            battleCry: "Боен клич",
-            whirlwind: "Вихър",
-            fireClaws: "Огнени нокти",
-            glacialFangs: "Ледени бивни",
-            fissure: "Разседина",
-            summonSpirit: "Призови дух",
-            primalLeap: "Примален скок",
-            avalanche: "Лавина",
-            tornado: "Торнадо",
-            moltenBoulder: "Втопен камък",
-            volcano: "Вулкан",
-            armageddon: "Армагедон",
-            thunderstorm: "Буря от светкавици"
-        },
-        
-        // Footer
-        footer: {
-            copyright: "© 2024 Oblivion Diablo 2 сървър - Останете и чуйте...",
-            tagline: "Влезте в мрака, прегърнете хаоса, издигнете се до слава."
         },
         
         // Language Selector
