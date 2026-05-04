@@ -1402,14 +1402,12 @@
     </div>
 
     <script>
-        // Initialize language manager
+        // Initialize language manager (already handled by translations.js)
         document.addEventListener('DOMContentLoaded', function() {
             const allContent = document.querySelectorAll('.section-content');
             allContent.forEach(content => {
                 content.style.display = 'none';
             });
-
-            langManager.init();
 
             // Changelog section toggles
             document.querySelectorAll('.section-header').forEach(header => {

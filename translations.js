@@ -211,9 +211,6 @@ class LanguageManager {
         
         // Update HTML lang attribute
         document.documentElement.lang = this.currentLanguage === 'bg' ? 'bg' : 'en';
-        
-        // Update page title
-        document.title = this.currentLanguage === 'bg' ? 'Oblivion - Diablo 2 сървър' : 'Oblivion - Diablo 2 Server';
     }
     
     // Update language selector UI
@@ -243,10 +240,15 @@ class LanguageManager {
     }
 }
 
-// Initialize language manager
-const langManager = new LanguageManager();
+// Initialize language manager when DOM is ready
+let langManager;
 
-// Export for use in other files
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { translations, LanguageManager };
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        langManager = new LanguageManager();
+        langManager.init();
+    });
+} else {
+    langManager = new LanguageManager();
+    langManager.init();
 }
