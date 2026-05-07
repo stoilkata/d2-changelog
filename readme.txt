@@ -2,7 +2,7 @@ NECROMANCER
 - Corpse explosion: damage rescaled. Min damage = corpse explosion level / 2. Max damage = corpse explosion level. Damage is 90% fire instead of 50/50 fire/physical.
 - Life tap: life stolen reduced from 50% to 15%.
 - Iron maiden replaced with new skill "Amplify Magic" (magic version of Amplify Damage).
-- Raise skeletal mage: mages now shoot Bone Spear. Bone Spear damage is increased by Skeleton Mastery and Bone Spear.
+- Raise skeletal mage: mages now shoot Bone Spear. Damage is improved by synergies. 
 - Skeletons: both skeleton warrior and skeleton mage have slightly increased health, defense, resistance, damage, and block.
 - Bone Spear: shoots multiple projectiles, increasing by 1 for every 20 levels (soft points).
 - Poison Dagger replaced with new skill "Poison Orb": like Frozen Orb, but Poison.
@@ -65,3 +65,16 @@ TERROR ZONES
 
 
 
+_____________________________________________________________________
+
+ITEMS
+Trang set - no longer turns into vampire
+
+NECROMANCER
+Bone Armor replaced with Death - turns into a vampire, increasing fire and poison damage, FCR and bone spear projectiles
+Bone Wall replaced with Hellfire
+Bone Prison replaced with Fire Nova
+Raise Skeletal Mage - Bone Spear damage increased by synergies
+
+BARBARIAN
+Increased Speed - Also increases FCR and IAS
