@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
+import LaunchIcon from "@mui/icons-material/Launch";
 import { useLang } from "../i18n/LanguageContext";
 import type { Lang } from "../i18n/translations";
 
@@ -35,6 +36,20 @@ export default function Navbar() {
         </Typography>
 
         <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+          <Button
+            href="https://discord.gg/UmmDTYB2rA"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="contained"
+            color="secondary"
+            endIcon={<LaunchIcon fontSize="small" />}
+            sx={{
+              fontFamily: '"Cinzel", serif',
+              fontWeight: 700,
+            }}
+          >
+            Discord
+          </Button>
           <ButtonGroup size="small" variant="outlined">
             {(["en", "bg"] as Lang[]).map((l) => (
               <Button
