@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stoilkata.github.io/d2-changelog/sitemap.xml

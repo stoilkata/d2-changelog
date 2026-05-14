@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://stoilkata.github.io/d2-changelog/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://stoilkata.github.io/d2-changelog/" />
+    <xhtml:link rel="alternate" hreflang="bg" href="https://stoilkata.github.io/d2-changelog/" />
+  </url>
+  <url>
+    <loc>https://stoilkata.github.io/d2-changelog/#/changelog</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

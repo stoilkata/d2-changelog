@@ -19,10 +19,15 @@ export const LangProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const stored = (localStorage.getItem("lang") as Lang | null) ?? "en";
-  const [lang, setLangState] = useState<Lang>(stored);
+  const [lang, setLangState] = useState<Lang>(() => {
+    // Sync the HTML lang attribute on init so Google reads the correct language
+    document.documentElement.lang = stored === "bg" ? "bg" : "en";
+    return stored;
+  });
 
   const setLang = (l: Lang) => {
     localStorage.setItem("lang", l);
+    document.documentElement.lang = l === "bg" ? "bg" : "en";
     setLangState(l);
   };
 
