@@ -2,7 +2,59 @@ export type Lang = "en" | "bg";
 
 export const translations = {
   en: {
-    nav: { title: "Oblivion" },
+    nav: { title: "Oblivion", home: "Home", changelog: "Changelog" },
+    home: {
+      title: "Enter Oblivion",
+      subtitle:
+        "A custom Diablo II server focused on meaningful endgame systems, faster progression windows, and fresh build variety.",
+      cards: {
+        terrorZones: {
+          title: "⚡ Terror Zones",
+          description:
+            "Rotating high-pressure zones with boosted density and reward-focused farming paths.",
+        },
+        timedExpEvents: {
+          title: "⏳ Timed EXP Events",
+          description:
+            "Scheduled experience windows to help you push levels and catch up with your group.",
+        },
+        craftingMechanics: {
+          title: "🧪 Improved Crafting",
+          description:
+            "Expanded crafting outcomes and recipe depth, designed to make item progression more fun.",
+        },
+        spellChanges: {
+          title: "🔮 Spell Changes",
+          description:
+            "Large-scale class and skill reworks that open new archetypes and rebalance old favorites.",
+        },
+        corruptionMechanics: {
+          title: "☄️ Corruption Mechanics",
+          description:
+            "Corrupt items for new stat outcomes and risk/reward gearing decisions in endgame.",
+        },
+        newMaps: {
+          title: "🗺️ New Maps",
+          description:
+            "Additional map content with unique loot opportunities and dedicated farming variety.",
+        },
+        newItems: {
+          title: "🧱 New Items (Unique/Runewords)",
+          description:
+            "Fresh unique items and runewords with new power spikes, item goals, and build-defining options.",
+        },
+        improvedMercenaries: {
+          title: "🎯 Improved Mercenaries",
+          description:
+            "Mercenaries are reworked with stronger scaling, expanded gear slots, and more meaningful support roles.",
+        },
+        biggerStorage: {
+          title: "📦 Bigger Stash/Cube/Inventory",
+          description:
+            "More storage space plus a dedicated charm zone in inventory, so you can farm longer and organize gear easier.",
+        },
+      },
+    },
     changelog: {
       title: "Changelog",
       mercenaryUpdates: "🎯 Mercenary Updates",
@@ -41,7 +93,59 @@ export const translations = {
     language: { label: "Language", english: "English", bulgarian: "Български" },
   },
   bg: {
-    nav: { title: "Oblivion" },
+    nav: { title: "Oblivion", home: "Начало", changelog: "Промени" },
+    home: {
+      title: "Влез в Oblivion",
+      subtitle:
+        "Custom Diablo II сървър с фокус върху силен endgame, по-бърз прогрес в определени прозорци и по-голямо билд разнообразие.",
+      cards: {
+        terrorZones: {
+          title: "⚡ Terror Zones",
+          description:
+            "Ротация на трудни зони с повишена density и по-добри възможности за фарм.",
+        },
+        timedExpEvents: {
+          title: "⏳ Timed EXP Events",
+          description:
+            "Планирани EXP прозорци, с които качвате нива по-бързо и наваксвате по-лесно с другите.",
+        },
+        craftingMechanics: {
+          title: "🧪 По-добро Crafting",
+          description:
+            "По-дълбоки рецепти и по-голяма стойност от craft системите за реален item прогрес.",
+        },
+        spellChanges: {
+          title: "🔮 Промени по уменията",
+          description:
+            "Мащабни промени по класове и умения, които отварят нови билдове и meta възможности.",
+        },
+        corruptionMechanics: {
+          title: "☄️ Corruption механики",
+          description:
+            "Corrupt-вай предмети за нови stat варианти и по-интересни решения за endgame екипировка.",
+        },
+        newMaps: {
+          title: "🗺️ Нови maps",
+          description:
+            "Ново map съдържание с уникален loot потенциал и допълнителни фарм маршрути.",
+        },
+        newItems: {
+          title: "🧱 Нови предмети (Unique/Runewords)",
+          description:
+            "Нови unique items и runewords с по-силен прогрес, нови цели и по-ясна билд идентичност.",
+        },
+        improvedMercenaries: {
+          title: "🎯 Подобрени наемници",
+          description:
+            "Merc-овете са с по-добро scaling, повече слотове за екипировка и по-важна роля в endgame.",
+        },
+        biggerStorage: {
+          title: "📦 По-голям Stash/Cube/Inventory",
+          description:
+            "Повече място плюс dedicated charm зона в inventory-то, за да фармите по-дълго и да подреждате loot-а по-лесно.",
+        },
+      },
+    },
     changelog: {
       title: "Промени",
       mercenaryUpdates: "🎯 Актуализации на наемниците",
@@ -93,11 +197,11 @@ const bgSectionReplacements: [string, string][] = [
   ["⚔️ Barbarian", "⚔️ Варвар"],
   [
     "All mercs: life and life/lvl increased by 30%, def and def/lvl increased by 15%",
-    "Всички меркове: life и life/lvl са вдигнати с 30%, def и def/lvl с 15%",
+    "Всички merc-та: life и life/lvl са вдигнати с 30%, а def и def/lvl с 15%",
   ],
   [
     "✅ Mercenaries can now wear boots, belt and gloves, too!",
-    "✅ Мерковете вече могат да носят и ботуши, колан и ръкавици!",
+    "✅ Merc-овете вече могат да носят и boots, belt и gloves!",
   ],
   ["❌ Cow King removed", "❌ Cow King е махнат"],
   [
@@ -106,7 +210,7 @@ const bgSectionReplacements: [string, string][] = [
   ],
   [
     "✅ Crafted items can now be recrafted",
-    "✅ Crafted item-ите вече могат да се recraft-ват",
+    "✅ Crafted items вече могат да се recraft-ват",
   ],
   [
     "Bosses loot is the same as the first kill (Quest)",
@@ -114,15 +218,15 @@ const bgSectionReplacements: [string, string][] = [
   ],
   [
     "🔁 Akara and Larzuk quests are repeatable",
-    "🔁 Quest-овете на Akara и Larzuk са repeatable",
+    "🔁 Quest-овете на Akara и Larzuk вече са repeatable",
   ],
   [
     "🔁 Thrown weapons and arrows/bolts don't lose quantity",
-    "🔁 Хвърляемите оръжия и стрелите/болтовете не губят quantity",
+    "🔁 Throw оръжията и arrows/bolts вече не губят количество",
   ],
   [
     "💥 Damage Reduced % cap increased from 50% to 80%",
-    "💥 Damage Reduced % cap е вдигнат от 50% на 80%",
+    "💥 Капът на Damage Reduced % е вдигнат от 50% на 80%",
   ],
   [
     "➕ Added physical and magic pierce",
@@ -131,21 +235,21 @@ const bgSectionReplacements: [string, string][] = [
   ["Stack up to 20 for 1-15 runes", "Стак до 20 за 1-15 runes"],
   ["Stack up to 10 for 15-33 runes", "Стак до 10 за 15-33 runes"],
   ["Stack up to 50 for gems", "Стак до 50 за gems"],
-  ["Density increased by 30%", "Density е вдигната с 30%"],
-  ["Champions increased by 50%", "Champion pack-овете са вдигнати с 50%"],
+  ["Density increased by 30%", "Density е увеличена с 30%"],
+  ["Champions increased by 50%", "Champion pack-овете са увеличени с 50%"],
   [
     "On Normal and Nightmare difficulty, area lvl will be increased by 10%",
     "На Normal и Nightmare area lvl се вдига с 10%",
   ],
   ["On Hell, area lvl will be set to 90", "На Hell area lvl става 90"],
-  ["Updated Gambling Odds:", "Обновени шансове за Gambling:"],
+  ["Updated Gambling Odds:", "Обновени Gambling шансове:"],
   [
     "🎲 Rare: 1/8 (was 1/10) - 20% increase",
-    "🎲 Rare: 1/8 (беше 1/10) - 20% buff",
+    "🎲 Rare: 1/8 (беше 1/10) - +20% шанс",
   ],
   [
     "🟢 Set: 1/200 (was 1/2000) - 1000% increase",
-    "🟢 Set: 1/200 (беше 1/2000) - 1000% buff",
+    "🟢 Set: 1/200 (беше 1/2000) - +1000% шанс",
   ],
   [
     "Hell monsters: +30% HP & Damage, -20% Exp",
