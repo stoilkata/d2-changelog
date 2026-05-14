@@ -93,7 +93,7 @@ export default function MercenaryUpdates() {
           <ListItem disableGutters sx={{ py: "2px", pl: 1 }}>
             <Typography sx={{ fontSize: "0.9rem", color: "#c9b8a0" }}>
               <strong style={{ color: "#e8d5b0" }}>Act 3 Bone:</strong>{" "}
-              <T>Casts Teeth, Bone Spear, Amplify Damage, Bone Armor</T>
+              <T>Casts Teeth, Bone Spear, Amplify Damage and Bone Armor</T>
             </Typography>
           </ListItem>
           <ListItem disableGutters sx={{ py: "2px", pl: 1 }}>
