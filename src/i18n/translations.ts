@@ -43,7 +43,7 @@ export const translations = {
   bg: {
     nav: { title: "Oblivion" },
     changelog: {
-      title: "Последни актуализации и промени",
+      title: "Промени",
       mercenaryUpdates: "🎯 Актуализации на наемниците",
       generalChanges: "💀 Общи промени",
       terrorZones: "⚡ Зони на терора",
