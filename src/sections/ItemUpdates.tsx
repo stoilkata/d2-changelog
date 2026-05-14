@@ -154,10 +154,6 @@ export default function ItemUpdates() {
           ]}
         />
         <ItemDetail
-          name="Titan's Revenge"
-          items={["Replenish quantity per 1 second"]}
-        />
-        <ItemDetail
           name="Andariel's Visage"
           items={["Fire resistance from -30% to +30%"]}
         />

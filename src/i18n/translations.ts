@@ -2,9 +2,9 @@ export type Lang = "en" | "bg";
 
 export const translations = {
   en: {
-    nav: { title: "OBLIVION CHANGELOG" },
+    nav: { title: "Oblivion" },
     changelog: {
-      title: "Latest Updates & Changelog",
+      title: "Changelog",
       mercenaryUpdates: "🎯 Mercenary Updates",
       generalChanges: "💀 General Changes",
       terrorZones: "⚡ Terror Zones",

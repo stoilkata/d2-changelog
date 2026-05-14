@@ -10,6 +10,7 @@ import type { Lang } from "../i18n/translations";
 
 export default function Navbar() {
   const { lang, setLang, t } = useLang();
+  const logoSrc = `${import.meta.env.BASE_URL}d2icon.png`;
 
   return (
     <AppBar
@@ -22,18 +23,31 @@ export default function Navbar() {
       }}
     >
       <Toolbar sx={{ justifyContent: "space-between", px: { xs: 2, md: 4 } }}>
-        <Typography
-          variant="h5"
-          sx={{
-            fontFamily: '"Cinzel", serif',
-            fontWeight: 700,
-            color: "#e74c3c",
-            letterSpacing: 2,
-            textShadow: "0 0 20px rgba(192,57,43,0.8)",
-          }}
-        >
-          ⚔️ {t("nav.title")} ⚔️
-        </Typography>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
+          <Box
+            component="img"
+            src={logoSrc}
+            alt="Oblivion logo"
+            sx={{
+              width: { xs: 54, md: 60 },
+              height: { xs: 54, md: 60 },
+              objectFit: "contain",
+              filter: "drop-shadow(0 0 10px rgba(192,57,43,0.65))",
+            }}
+          />
+          <Typography
+            variant="h5"
+            sx={{
+              fontFamily: '"Cinzel", serif',
+              fontWeight: 700,
+              color: "#e74c3c",
+              letterSpacing: 2,
+              textShadow: "0 0 20px rgba(192,57,43,0.8)",
+            }}
+          >
+            {t("nav.title")}
+          </Typography>
+        </Box>
 
         <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
           <Button
