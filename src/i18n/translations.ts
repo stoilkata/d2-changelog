@@ -41,7 +41,7 @@ export const translations = {
     language: { label: "Language", english: "English", bulgarian: "Български" },
   },
   bg: {
-    nav: { title: "OBLIVION CHANGELOG" },
+    nav: { title: "Oblivion" },
     changelog: {
       title: "Последни актуализации и промени",
       mercenaryUpdates: "🎯 Актуализации на наемниците",
