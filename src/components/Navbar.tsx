@@ -60,6 +60,7 @@ export default function Navbar() {
             sx={{
               fontFamily: '"Cinzel", serif',
               fontWeight: 700,
+              height: 30,
             }}
           >
             Discord
