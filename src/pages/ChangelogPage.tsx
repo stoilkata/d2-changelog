@@ -6,14 +6,14 @@ import { useLang } from "../i18n/LanguageContext";
 import MercenaryUpdates from "../sections/MercenaryUpdates";
 import GeneralChanges from "../sections/GeneralChanges";
 import TerrorZones from "../sections/TerrorZones";
-import ClassSkills from "../sections/ClassSkills";
+import ClassSkills from "../sections/ClassSkills.tsx";
 import GamblingChanges from "../sections/GamblingChanges";
 import DifficultyPenalties from "../sections/DifficultyPenalties";
 import MonsterBuffs from "../sections/MonsterBuffs";
 import UIZoneChanges from "../sections/UIZoneChanges";
-import ItemUpdates from "../sections/ItemUpdates";
-import CubeRecipes from "../sections/CubeRecipes";
-import NewRunewords from "../sections/NewRunewords";
+import ItemUpdates from "../sections/ItemUpdates.tsx";
+import CubeRecipes from "../sections/CubeRecipes.tsx";
+import NewRunewords from "../sections/NewRunewords.tsx";
 import MapResistanceOverview from "../sections/MapResistanceOverview";
 
 export default function ChangelogPage() {
