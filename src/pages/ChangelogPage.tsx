@@ -14,6 +14,7 @@ import UIZoneChanges from "../sections/UIZoneChanges";
 import ItemUpdates from "../sections/ItemUpdates";
 import CubeRecipes from "../sections/CubeRecipes";
 import NewRunewords from "../sections/NewRunewords";
+import MapResistanceOverview from "../sections/MapResistanceOverview";
 
 export default function ChangelogPage() {
   const { t } = useLang();
@@ -55,6 +56,10 @@ export default function ChangelogPage() {
             {component}
           </SectionAccordion>
         ))}
+      </Box>
+
+      <Box sx={{ mt: 3 }}>
+        <MapResistanceOverview />
       </Box>
     </Container>
   );
