@@ -19,9 +19,11 @@ export default function BarbarianSkills() {
       <SkillChange
         name="Cleave (replaces Concentrate)"
         items={[
-          "New skill: Deals frontal cone splash damage based on weapon damage (100%)",
-          "Initial cooldown is 1.6s",
-          "Each level lowers the cooldown until it has no cooldown at level 20 (hard points)",
+          <T>
+            New skill: Deals frontal cone splash damage based on weapon damage
+            (100%) and provides a damage and attack speed bonus for a short
+            duration
+          </T>,
         ]}
       />
       <SkillChange

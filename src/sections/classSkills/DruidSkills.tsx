@@ -40,9 +40,10 @@ export default function DruidSkills() {
         name="Summon Creatures"
         items={[
           "Grizzly/spirit wolf/dire wolf stats nerfed",
-          "Can summon all animals at once - 8 spirit wolves, 5 dire wolves and 3 grizzlies",
+          <T>Can summon all animals at once - 5/3/1 + 1 per 20 points each</T>,
           "Can summon all 3 spirits at once - Oak Sage, Heart of the Wolverine, Spirit of Barbs",
-          "Spirit Wolf, Dire Wolf and Grizzly HP and damage increased (net positive despite stat nerf)",
+          <T>Spirit Wolf, Dire Wolf and Grizzly HP and damage increased</T>,
+          <T>Grizzly uses Barbarian's Cleave (splash)</T>,
         ]}
       />
       <SkillChange

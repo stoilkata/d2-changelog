@@ -324,6 +324,22 @@ const bgSectionReplacements: [string, string][] = [
     "Сменен е към classic Whirlwind - работи независимо от IAS",
   ],
   [
+    "New skill: Deals frontal cone splash damage based on weapon damage (100%) and provides a damage and attack speed bonus for a short duration",
+    "Ново умение: Нанася frontal cone splash damage базиран на weapon damage (100%) и дава кратък бонус към damage и attack speed",
+  ],
+  [
+    "Can summon all animals at once - 5/3/1 + 1 per 20 points each",
+    "Може да призовава всички животни едновременно - 5/3/1 + 1 на всеки 20 точки за всяко",
+  ],
+  [
+    "Spirit Wolf, Dire Wolf and Grizzly HP and damage increased",
+    "Spirit Wolf, Dire Wolf и Grizzly са с увеличени HP и damage",
+  ],
+  [
+    "Grizzly uses Barbarian's Cleave (splash)",
+    "Grizzly използва Barbarian Cleave (splash)",
+  ],
+  [
     "Now needs only 1 Zod rune instead of 3",
     "Вече иска само 1 Zod rune вместо 3",
   ],
