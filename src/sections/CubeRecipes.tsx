@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import {
+  AncientFragmentRecipesGroup,
   CharmRerollingGroup,
   RuneUpgradingGroup,
   SocketingGroup,
@@ -17,6 +18,7 @@ export default function CubeRecipes() {
       <CharmRerollingGroup />
       <CraftingRecipesGroup />
       <SocketingGroup />
+      <AncientFragmentRecipesGroup />
     </Box>
   );
 }

@@ -353,6 +353,10 @@ const bgSectionReplacements: [string, string][] = [
     "Вече работи и в bows и swords (освен старите бази)",
   ],
   ["Can also be made in Amazon spears", "Може да се прави и в Amazon spears"],
+  [
+    "✅ Added 2 new sets - these sets are not going to be announced, find them yourselves!",
+    "✅ Добавени са 2 нови сета - тези сетове няма да бъдат обявени, намерете ги сами!",
+  ],
 ];
 
 const bgGenericReplacements: [RegExp, string][] = [

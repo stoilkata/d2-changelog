@@ -51,10 +51,6 @@ export default function NecromancerSkills() {
         items={["Synergies damage increased from 6% to 7%"]}
       />
       <SkillChange
-        name="Bone Armor"
-        items={["Damage absorb per level increased from 10 to 15"]}
-      />
-      <SkillChange
         name="Revive"
         items={["Duration increased from 180 to 360"]}
       />
@@ -70,7 +66,7 @@ export default function NecromancerSkills() {
       />
       <SkillChange
         name="Bone Prison replaced with Fire Nova"
-        items={["Like Poison Nova but releases Fire Ball"]}
+        items={["Like Diablo's Fire Nova"]}
       />
     </ClassGroup>
   );

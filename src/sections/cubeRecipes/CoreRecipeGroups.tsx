@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
 import { ItemGroup } from "../../components/ChangelogComponents";
+import T from "../../components/T";
 import Recipe from "./Recipe";
 
 export function SpecialRecipesGroup() {
@@ -107,6 +108,204 @@ export function SocketingGroup() {
             type="changed"
           />
         ))}
+      </List>
+    </ItemGroup>
+  );
+}
+
+export function AncientFragmentRecipesGroup() {
+  return (
+    <ItemGroup title="Ancient Fragment Recipes">
+      <List dense disablePadding>
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 0.5,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 1</T>
+        </Typography>
+        <Recipe
+          label="FHR +10%"
+          desc="Mal rune + Perfect Amethyst + Ancient Fragment"
+          type="added"
+        />
+        <Recipe
+          label="FRW +10%"
+          desc="Mal rune + Perfect Topaz + Ancient Fragment"
+          type="added"
+        />
+        <Recipe
+          label="Health +25"
+          desc="Mal rune + Perfect Sapphire + Ancient Fragment"
+          type="added"
+        />
+        <Recipe
+          label="Mana +35"
+          desc="Mal rune + Perfect Emerald + Ancient Fragment"
+          type="added"
+        />
+
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 2</T>
+        </Typography>
+        <Recipe
+          label="FBR +20%"
+          desc="Ist rune + Perfect Amethyst + Ancient Fragment Level 1"
+          type="added"
+        />
+        <Recipe
+          label="Block +15%"
+          desc="Ist rune + Perfect Topaz + Ancient Fragment Level 1"
+          type="added"
+        />
+        <Recipe
+          label="FCR +10%"
+          desc="Ist rune + Perfect Sapphire + Ancient Fragment Level 1"
+          type="added"
+        />
+        <Recipe
+          label="IAS +15%"
+          desc="Ist rune + Perfect Emerald + Ancient Fragment Level 1"
+          type="added"
+        />
+
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 3</T>
+        </Typography>
+        <Recipe
+          label="Strength +10"
+          desc="Gul rune + Perfect Amethyst + Ancient Fragment Level 2"
+          type="added"
+        />
+        <Recipe
+          label="Dexterity +10"
+          desc="Gul rune + Perfect Topaz + Ancient Fragment Level 2"
+          type="added"
+        />
+        <Recipe
+          label="Vitality +15"
+          desc="Gul rune + Perfect Sapphire + Ancient Fragment Level 2"
+          type="added"
+        />
+        <Recipe
+          label="Energy +15"
+          desc="Gul rune + Perfect Emerald + Ancient Fragment Level 2"
+          type="added"
+        />
+
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 4</T>
+        </Typography>
+        <Recipe
+          label="AR +10%"
+          desc="Vex rune + Perfect Amethyst + Ancient Fragment Level 3"
+          type="added"
+        />
+        <Recipe
+          label="ED (dmg) +30%"
+          desc="Vex rune + Perfect Topaz + Ancient Fragment Level 3"
+          type="added"
+        />
+        <Recipe
+          label="Fire Dmg +5%"
+          desc="Vex rune + Perfect Sapphire + Ancient Fragment Level 3"
+          type="added"
+        />
+        <Recipe
+          label="Lightning Dmg +5%"
+          desc="Vex rune + Perfect Emerald + Ancient Fragment Level 3"
+          type="added"
+        />
+        <Recipe
+          label="Cold Dmg +5%"
+          desc="Vex rune + Perfect Ruby + Ancient Fragment Level 3"
+          type="added"
+        />
+        <Recipe
+          label="Poison Dmg +5%"
+          desc="Vex rune + Perfect Diamond + Ancient Fragment Level 3"
+          type="added"
+        />
+
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 5</T>
+        </Typography>
+        <Recipe
+          label="Minus Target Defense -15%"
+          desc="Ohm rune + Perfect Amethyst + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Physical Pierce -8%"
+          desc="Ohm rune + Perfect Topaz + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Cold Pierce -5%"
+          desc="Ohm rune + Perfect Sapphire + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Fire Pierce -5%"
+          desc="Ohm rune + Perfect Emerald + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Lightning Pierce -5%"
+          desc="Ohm rune + Perfect Ruby + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Poison Pierce -5%"
+          desc="Ohm rune + Perfect Diamond + Ancient Fragment Level 4"
+          type="added"
+        />
+        <Recipe
+          label="Magic Pierce -8%"
+          desc="Ohm rune + Perfect Skull + Ancient Fragment Level 4"
+          type="added"
+        />
       </List>
     </ItemGroup>
   );

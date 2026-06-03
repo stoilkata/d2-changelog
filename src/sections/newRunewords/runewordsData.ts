@@ -145,8 +145,8 @@ export const runewords: RunewordEntry[] = [
       "1 To All Skills",
       "+20% Faster Cast Rate",
       "+20 All Resistances",
-      "250% Better Chance Of Getting Magic Items",
-      "2-173% Better Chance Of Getting Magic Items (1.74% Based On Character's Level)",
+      "120% Better Chance Of Getting Magic Items",
+      "Better Chance Of Getting Magic Items based on character level",
     ],
   },
   {

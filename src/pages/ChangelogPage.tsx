@@ -58,9 +58,9 @@ export default function ChangelogPage() {
         ))}
       </Box>
 
-      <Box sx={{ mt: 3 }}>
+      {/* <Box sx={{ mt: 3 }}>
         <MapResistanceOverview />
-      </Box>
+      </Box> */}
     </Container>
   );
 }

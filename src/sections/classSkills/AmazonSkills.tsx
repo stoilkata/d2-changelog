@@ -27,7 +27,14 @@ export default function AmazonSkills() {
         name="Ice Arrow, Freezing Arrow, Exploding Arrow"
         items={["Now shoot 5 arrows"]}
       />
-      <SkillChange name="Valkyrie" items={["Casting delay reduced to 0.6s"]} />
+      <SkillChange
+        name="Valkyrie"
+        items={[
+          "Casting delay reduced to 0.6s",
+          "Can summon 1 + 1 per 20 levels.",
+          "Valkyrie can now use Lightning Strike and Charged Strike",
+        ]}
+      />
     </ClassGroup>
   );
 }
