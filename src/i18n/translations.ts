@@ -299,12 +299,31 @@ const bgSectionReplacements: [string, string][] = [
     "Life steal-ът е намален от 50% на 15%",
   ],
   [
-    "Now hits all enemies and has reduced delay 0.4s",
-    "Вече удря всички врагове и има намален delay 0.4s",
+    "Now hits all enemies and delay is removed",
+    "Вече удря всички врагове и delay-ят е премахнат",
+  ],
+  ["Added synergy from Sanctuary Aura", "Добавена е synergy от Sanctuary Aura"],
+  [
+    "Rescaled synergy damage to account for Sanctuary Aura synergy addition. Net damage increased.",
+    "Synergy damage-ът е преразчетен заради добавената synergy със Sanctuary Aura. Крайният damage е увеличен.",
   ],
   ["Now hits all enemies", "Вече удря всички врагове"],
   ["Removed Blessed Hammer synergy", "Махната е synergy-та с Blessed Hammer"],
   ["Increased damage scaling by 50%", "Damage scaling-ът е вдигнат с 50%"],
+  [
+    "Decreased damage synergy damage from 50% to 25%",
+    "Synergy damage-ът е намален от 50% на 25%",
+  ],
+  [
+    "Now jumps targets similar to Chain Lightning",
+    "Вече прескача между цели подобно на Chain Lightning",
+  ],
+  [
+    "Synergy damage increased from 14% to 16%",
+    "Synergy damage-ът е увеличен от 14% на 16%",
+  ],
+  ["Lowers enemies' magic resist", "Намалява magic resist-а на враговете"],
+  ["Now a self-buff", "Вече е self-buff"],
   [
     "Reworked: Deals frontal cone splash fire damage",
     "Rework-нато: нанася frontal cone splash fire damage",
@@ -352,6 +371,7 @@ const bgSectionReplacements: [string, string][] = [
     "Now works in bows and swords (in addition to existing bases)",
     "Вече работи и в bows и swords (освен старите бази)",
   ],
+  ["Now works in all weapons", "Вече работи във всички оръжия"],
   ["Can also be made in Amazon spears", "Може да се прави и в Amazon spears"],
   [
     "✅ Added 2 new sets - these sets are not going to be announced, find them yourselves!",

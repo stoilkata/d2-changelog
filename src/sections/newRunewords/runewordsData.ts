@@ -6,6 +6,11 @@ export interface RunewordEntry {
 
 export const runewords: RunewordEntry[] = [
   {
+    name: "HOTO (Updated)",
+    base: "Now works in all weapons",
+    items: [],
+  },
+  {
     name: "Insight (Updated)",
     base: "Now works in bows and swords (in addition to existing bases)",
     items: [],

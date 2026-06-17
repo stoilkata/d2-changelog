@@ -306,6 +306,43 @@ export function AncientFragmentRecipesGroup() {
           desc="Ohm rune + Perfect Skull + Ancient Fragment Level 4"
           type="added"
         />
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 6</T>
+        </Typography>
+        <Recipe
+          label="All stats +10"
+          desc="Lo rune + Perfect Amethyst + Ancient Fragment Level 5"
+          type="added"
+        />
+        <Recipe
+          label="All resist +10%"
+          desc="Lo rune + Perfect Topaz + Ancient Fragment Level 5"
+          type="added"
+        />
+        <Recipe
+          label="Crushing Blow +10%"
+          desc="Lo rune + Perfect Sapphire + Ancient Fragment Level 5"
+          type="added"
+        />
+        <Recipe
+          label="Deadly Strike +10%"
+          desc="Lo rune + Perfect Emerald + Ancient Fragment Level 5"
+          type="added"
+        />
+        <Recipe
+          label="All Skills +1"
+          desc="Lo rune + Perfect Ruby + Ancient Fragment Level 5"
+          type="added"
+        />
       </List>
     </ItemGroup>
   );

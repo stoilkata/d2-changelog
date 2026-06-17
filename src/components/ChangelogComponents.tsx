@@ -3,6 +3,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import T from "./T";
 
 type ItemType = "added" | "changed" | "removed" | "neutral";
 
@@ -224,7 +225,7 @@ export function RunewordDetail({
           mb: 0.5,
         }}
       >
-        {base}
+        <T>{base}</T>
       </Typography>
       <List dense disablePadding sx={{ pl: 1 }}>
         {items.map((item, i) => (
@@ -233,7 +234,7 @@ export function RunewordDetail({
               component="span"
               sx={{ fontSize: "0.88rem", color: "#c9b8a0" }}
             >
-              {item}
+              <T>{item}</T>
             </Typography>
           </ListItem>
         ))}
