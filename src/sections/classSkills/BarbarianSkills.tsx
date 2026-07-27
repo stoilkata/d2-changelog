@@ -42,7 +42,10 @@ export default function BarbarianSkills() {
       />
       <SkillChange
         name="Whirlwind"
-        items={[<T>Changed to classic Whirlwind - works independent of IAS</T>]}
+        items={[
+          <T>Changed to classic Whirlwind - works independent of IAS</T>,
+          "Can proc chance to cast skills on striking",
+        ]}
       />
       <SkillChange
         name="Increased Speed"

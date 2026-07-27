@@ -48,6 +48,18 @@ const items: {
       "Stack up to 50 for gems",
     ],
   },
+  {
+    text: "New stat Chance to cast X on casting",
+    type: "added",
+  },
+  {
+    text: "Autopickup picks up gold, runes and Flawless/Perfect gems",
+    type: "added",
+  },
+  {
+    text: "Socket protect for stackable runes/gems",
+    type: "added",
+  },
 ];
 
 const typeColor: Record<string, string> = {
