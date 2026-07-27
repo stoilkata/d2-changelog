@@ -340,7 +340,39 @@ export function AncientFragmentRecipesGroup() {
         />
         <Recipe
           label="All Skills +1"
-          desc="Lo rune + Perfect Ruby + Ancient Fragment Level 5"
+          desc="Sur rune + Perfect Ruby + Ancient Fragment Level 5"
+          type="added"
+        />
+        <Typography
+          sx={{
+            fontSize: "0.85rem",
+            color: "#c9b8a0",
+            pl: 1,
+            mt: 1,
+            mb: 0.5,
+            fontStyle: "italic",
+          }}
+        >
+          <T>Level 7</T>
+        </Typography>
+        <Recipe
+          label="Experience gained +3%"
+          desc="Lo rune + Perfect Amethyst + Ancient Fragment Level 6"
+          type="added"
+        />
+        <Recipe
+          label="+5 to Dodge"
+          desc="Lo rune + Perfect Topaz + Ancient Fragment Level 6"
+          type="added"
+        />
+        <Recipe
+          label="+5 to Energy Shield"
+          desc="Lo rune + Perfect Sapphire + Ancient Fragment Level 6"
+          type="added"
+        />
+        <Recipe
+          label="+5 to Shout"
+          desc="Lo rune + Perfect Emerald + Ancient Fragment Level 6"
           type="added"
         />
       </List>

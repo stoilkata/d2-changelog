@@ -29,7 +29,7 @@ export default function SorceressSkills() {
       />
       <SkillChange
         name="Frozen Orb"
-        items={[<T>Delay reduced from 1.0 to 0.8</T>]}
+        items={[<T>Delay reduced from 1.0 to 0.4</T>]}
       />
     </ClassGroup>
   );

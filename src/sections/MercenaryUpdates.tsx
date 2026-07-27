@@ -53,19 +53,19 @@ export default function MercenaryUpdates() {
       />
       <MercGroup
         title={t("mercenaries.act3LightningNmHell")}
-        skills="Lightning, Nova, Static Field, Vigor, Frozen Armor"
+        skills="Lightning, Nova, Static Field, Amplify Damage, Frozen Armor"
       />
       <MercGroup
         title={t("mercenaries.act3ColdNmHell")}
-        skills="Glacial Spike, Blizzard, Frozen Orb, Meditation, Frozen Armor"
+        skills="Glacial Spike, Blizzard, Frozen Orb, Sanctuary, Frozen Armor"
       />
       <MercGroup
         title={t("mercenaries.act5Offensive")}
-        skills="Berserk, War Cry, Battle Orders, Shout, Natural Resistance"
+        skills="Berserk, War Cry, Battle Orders, Shout, Natural Resistance, and Sword Mastery"
       />
       <MercGroup
         title={t("mercenaries.act5Combat")}
-        skills="Cleave, Battle Cry, Battle Orders, Shout, Iron Skin"
+        skills="Cleave, Battle Cry, Frenzy, Increased Speed, Iron Skin, and Sword Mastery"
       />
 
       <ItemGroup title={t("mercenaries.generalImprovements")}>
@@ -93,7 +93,7 @@ export default function MercenaryUpdates() {
           <ListItem disableGutters sx={{ py: "2px", pl: 1 }}>
             <Typography sx={{ fontSize: "0.9rem", color: "#c9b8a0" }}>
               <strong style={{ color: "#e8d5b0" }}>Act 3 Bone:</strong>{" "}
-              <T>Casts Teeth, Bone Spear, Amplify Damage and Bone Armor</T>
+              <T>Casts Teeth, Bone Spear, Amplify Magic and Bone Armor</T>
             </Typography>
           </ListItem>
           <ListItem disableGutters sx={{ py: "2px", pl: 1 }}>
