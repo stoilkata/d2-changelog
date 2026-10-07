@@ -7,7 +7,7 @@ export default function AssassinSkills() {
       <SkillChange
         name="Death Sentry"
         items={[
-          "Corpse explosion damage reduced from 40-80 to 10-20",
+          "Corpse explosion damage reduced from 40-80 to 20-30",
           "Damage is 90% fire instead of 50/50 physical/fire",
           "Base radius reduced from 10 to 5 (still scales 1/level, 1 = 0.3y)",
           "Shots fired increased from 5 to 8",

@@ -36,6 +36,10 @@ export default function PaladinSkills() {
       <SkillChange name="Holy Shock" items={[<T>Now a self-buff</T>]} />
       <SkillChange name="Holy Freeze" items={[<T>Now a self-buff</T>]} />
       <SkillChange name="Holy Fire" items={[<T>Now a self-buff</T>]} />
+      <SkillChange
+        name="Vengeance (reworked)"
+        items={["Attacks cast Nova/Glacial Spike/Fissure."]}
+      />
     </ClassGroup>
   );
 }

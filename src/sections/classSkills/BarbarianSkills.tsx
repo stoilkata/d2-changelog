@@ -45,6 +45,7 @@ export default function BarbarianSkills() {
         items={[
           <T>Changed to classic Whirlwind - works independent of IAS</T>,
           "Can proc chance to cast skills on striking",
+          "Whirlwind follows the mouse when you hold right click or shift + left click. When you release the button, the whirlwind stops.",
         ]}
       />
       <SkillChange

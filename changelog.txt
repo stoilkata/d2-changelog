@@ -1,0 +1,118 @@
+
+Amazon:
+Decoy replaced with Summon Rogue
+
+Elders:
+Elders are now level 87
+Assassin elder temporarily removed to be modified
+
+Map scroll drop chance is 300% less than what it was originally.
+
+
+Whirlwind:
+Can proc chance on striking. This is experimental. If there are bugs, it will be reverted.
+
+Autopickup:
+Now also picks up Flawless gems, Perfect gems and runes.
+
+Socket protect for stackable runes/gems, so no mistakes can happen.
+
+New stat:
+Chance to cast X on cast. This is experimental. If there are bugs it will be reverted.
+
+New recipe to test chance to cast on cast - Weapon + Perfect Amethyst - adds chance to cast Fireball on cast.
+
+
+
+Act5 Merc:
+Combat - uses a 2handed axe/sword/mace
+Offensive - uses 2x 1h axe/sword/mace
+
+New stats:
+Skill life leech - like life leech but works with skills. Works at 33% effectiveness, so 3% skill life leech is actually 1% leech. This is for balance purposes
+Skill mana leech - like mana leech but works with skills. Works at 33% effectiveness, so 3% skill mana leech is actually 1% leech. This is for balance purposes
+
+Terror zone tracking:
+When terror zones change, you will get a notification ingame. Or you can use ".tz" command to view the current and upcoming terror zones.
+
+
+
+Necromancer:
+Attack Order - new innate ability. BO-style buff which makes the summons attack your target.
+Hellfire - reworked. Casts fire pentagram on the ground.
+Death - reworked. Poison/Fire dmg reduced to 1% per level. FCR bonus removed. Added lvl/6 skill life leech. FCR frames are like without form. FRW bonus reduced.
+Fire Nova - range and damage reduced.
+Corpse Explosion - cooldown removed. Damage buffed by 5%.
+
+
+
+Paladin:
+Vengeance - reworked. Attacks cast Nova/Glacial Spike/Fissure.
+
+
+Barbarian:
+Whirlwind - reworked. Whirlwind follows the mouse when you hold right click or shift + left click. When you release the button, the whirlwind stops.
+
+Amazon:
+Decoy replaced with Summon Rogue - summons a rogue archer that shoots exploding/freezing arrows.
+
+
+
+Assassin:
+Blade Toss: weapon damage reduced to 75%, rescaled bonus damage from the skill itself.
+Blade Storm: weapon damage reduced to 75%, rescaled bonus damage from the skill itself.
+Death Sentry - corpse explosion damage buffed from 10-20% to 20-30%
+
+
+Sorceress:
+Shiver Armor - reworked, does periodic cold damage to surrounding enemies. TODO
+Inferno - removed. New skill Fire Shield - self buff, increases chance to block, fire absorb and shoots a Fireball on block. Fireball damage is equal to skill's tooltip damage.
+Blaze - removed. New skill Pyroclasm - Fire whirlwind. Works only with Staves and Orbs. Does fire damage + 100% weapon damage as physical and leaves a trail of fire. Can proc chance to cast on attack/hit.
+Fire Wall - removed. New skill Infernal Fury - passive. Hits received give you charges. For every X (scales with level) charges, you can release a Fire Nova when attacking with Pyroclasm or Normal Attack.
+Enchant - modified, renamed to Flameforged. Old Enchant is still available on some items. Provides fire damage/AR bonus and shoots a Firebolt on attack.
+Fire Mastery - modified. Gives less Fire Damage%, but also provides Fire Pierce.
+
+
+
+Items:
+Astral Covenant set: Removed +1 to Fire/Cold/Light mastery, added +8% to Fire/Cold/Light dmg.
+Herb - Renamed to Dreamvine and has orange color for better visibility
+Added a bunch of items from older versions of EPS.
+
+
+
+
+Hephasto:
+HP increased 200-300%.
+Has Countess rune drop table, but up to Cham.
+
+
+Red portal maps:
+Scrolls drop from Act5 NM and Hell. Can drop Magic, Rare or Unique with map-specific stats:
+- MF, Extra gold, -max resist, monster velocity, monster health, monster dmg.
+Monsters rebalanced
+
+
+
+
+Elemental pierce:
+Light/Cold/Fire/Poison pierce breaks immunities. Above 100 resistance, it works at 1/3 effectiveness. If you have 60 fire pierce vs monster with 120 resistance, the monster's resistance is reduced to 100.
+
+
+
+Crushing Blow: Doesn't work on the three new ancient bosses.
+
+Cube recipes:
+Unique + scroll of town portal = Arcane Dust
+Arcane Dust + scroll of town portal = MF potion - 150%MF, 10 minutes duration
+Arcane Dust + identify scroll = EXP Potion - 20%EXP, 2 minutes duration
+
+
+
+
+
+
+
+
+
+

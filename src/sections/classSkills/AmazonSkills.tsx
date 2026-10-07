@@ -35,6 +35,10 @@ export default function AmazonSkills() {
           "Valkyrie can now use Lightning Strike and Charged Strike",
         ]}
       />
+      <SkillChange
+        name="Summon Rogue (replaces Decoy)"
+        items={["Can summon 1 + 1 per 20 levels.", "Shoots Explding Arrows"]}
+      />
     </ClassGroup>
   );
 }

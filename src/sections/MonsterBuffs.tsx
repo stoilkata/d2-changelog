@@ -7,6 +7,7 @@ const items = [
   "Hell monsters: +30% HP & Damage, -20% Exp",
   "85+ Zones: +15–25% monster density",
   "Elder monsters in Act 1 Hole Level 1",
+  "Hephasto: +300% HP and has Countess rune drop table, but up to Cham.",
 ];
 
 export default function MonsterBuffs() {

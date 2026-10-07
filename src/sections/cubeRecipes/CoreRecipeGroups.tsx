@@ -24,6 +24,21 @@ export function SpecialRecipesGroup() {
           desc="Ist + Herb (drops from Blood Raven Hell) + Helm = Helm with +1 to Primal Leap"
           type="added"
         />
+        <Recipe
+          label="Arcane Dust"
+          desc="Any Unique + town scroll portal = Arcane Dust (used for crafting new items)"
+          type="added"
+        />
+        <Recipe
+          label="MF Potion"
+          desc="Arcane Dust + town scroll portal = MF Potion (150%MF, 10 minutes duration)"
+          type="added"
+        />
+        <Recipe
+          label="EXP Potion"
+          desc="Any Unique + scroll of identify = EXP Potion (20%EXP, 2 minutes duration)"
+          type="added"
+        />
       </List>
     </ItemGroup>
   );

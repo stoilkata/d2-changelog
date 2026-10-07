@@ -36,7 +36,7 @@ const items: {
     type: "added",
   },
   {
-    text: "🗺️ 7 new maps - each map is opened (only on act5 hell!) with a scroll which drops from Andariel/Duriel/Mephisto/Diablo/Baal/Izual/Hephasto in Hell. New Unique items drop here and everything else, including torch and annihilus",
+    text: "🗺️ 7 new maps - each map is opened (only on act5 hell!) with a scroll which drops from Act5 NM and everywhere in Hell. New Unique items drop here and everything else, including torch and annihilus. The scrolls can drop magic/rare/unique and have map modifiers which work only inside the maps.",
     type: "added",
   },
   {
@@ -59,6 +59,23 @@ const items: {
   {
     text: "Socket protect for stackable runes/gems",
     type: "added",
+  },
+  {
+    text: "New leech stats:",
+    sub: [
+      "Skill life leech - like life leech but works with skills. Works at 33% effectiveness, so 3% skill life leech is actually 1% leech. This is for balance purposes.",
+      "Skill mana leech - like mana leech but works with skills. Works at 33% effectiveness, so 3% skill mana leech is actually 1% leech. This is for balance purposes.",
+    ],
+  },
+  {
+    text: "Elemental pierece:",
+    sub: [
+      "Light/Cold/Fire/Poison pierce breaks immunities. Above 100 resistance, it works at 1/3 effectiveness. If you have 60 fire pierce vs monster with 120 resistance, the monster's resistance is reduced to 100.",
+    ],
+  },
+  {
+    text: "Crushing blow:",
+    sub: ["Doesn't work on the three new ancient bosses."],
   },
 ];
 

@@ -57,16 +57,22 @@ export default function NecromancerSkills() {
       <SkillChange
         name="Bone Armor replaced with Death"
         items={[
-          "Transforms into a vampire, granting fire and poison damage, FCR and Bone Spear projectiles",
+          "Transforms into a vampire, granting fire and poison damage, FRW, Bone Spear projectiles, lvl/6 skill life leech",
         ]}
       />
       <SkillChange
         name="Bone Wall replaced with Hellfire"
-        items={["Like Diablo's Firestorm"]}
+        items={["Casts fire pentagram on the ground."]}
       />
       <SkillChange
         name="Bone Prison replaced with Fire Nova"
-        items={["Like Diablo's Fire Nova"]}
+        items={["Like Baal's Fire Nova"]}
+      />
+      <SkillChange
+        name="Attack Order"
+        items={[
+          "New innate ability. BO-style buff which makes the summons attack your target.",
+        ]}
       />
     </ClassGroup>
   );

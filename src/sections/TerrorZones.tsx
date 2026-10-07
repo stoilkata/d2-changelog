@@ -18,6 +18,9 @@ const items = [
   {
     text: "📢 JoroIgnatov will announce the terrorized zones in channel #terror-zones",
   },
+  {
+    text: 'When terror zones change, you will get a notification ingame. Or you can use ".tz" command to view the current and upcoming terror zones.',
+  },
 ];
 
 export default function TerrorZones() {
