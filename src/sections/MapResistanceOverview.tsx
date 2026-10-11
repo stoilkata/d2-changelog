@@ -430,7 +430,7 @@ const resistanceRows: ResistanceRow[] = [
 
 const mapRows: MapRow[] = [
   {
-    name: "Infernal Expanse (Andariel)",
+    name: "Infernal Expanse (Tier 1)",
     monsters: [
       "bloodlord5_new",
       "willowisp7_new",
@@ -441,7 +441,7 @@ const mapRows: MapRow[] = [
     ],
   },
   {
-    name: "Hall of Ancestral Judgment (Mephisto)",
+    name: "Hall of Ancestral Judgment (Tier 2)",
     monsters: [
       "corruptrogueThrone",
       "cr_archerThrone",
@@ -452,7 +452,7 @@ const mapRows: MapRow[] = [
     ],
   },
   {
-    name: "Pandemonium Rift (Duriel)",
+    name: "Pandemonium Rift (Tier 2)",
     monsters: [
       "putriddefiler1_new",
       "bonefetish7_new",
@@ -649,12 +649,13 @@ function MapSummaryRow({ row, open, onToggle }: MapSummaryRowProps) {
         >
           <Collapse in={open} timeout="auto" unmountOnExit>
             <Box sx={{ py: 1.5, px: 1 }}>
-              <Typography
-                sx={{ fontSize: "0.8rem", color: "#a89070", mb: 1 }}
-              >
+              <Typography sx={{ fontSize: "0.8rem", color: "#a89070", mb: 1 }}>
                 Monster resistances (immune values highlighted)
               </Typography>
-              <Table size="small" aria-label={`${row.name} monster resistances`}>
+              <Table
+                size="small"
+                aria-label={`${row.name} monster resistances`}
+              >
                 <TableHead>
                   <TableRow>
                     <TableCell sx={headerCellSx}>Monster</TableCell>
@@ -670,7 +671,10 @@ function MapSummaryRow({ row, open, onToggle }: MapSummaryRowProps) {
                     <TableRow key={monster.id}>
                       <TableCell sx={bodyCellSx}>{monster.id}</TableCell>
                       {RESISTANCE_KEYS.map((key: ResistanceKey) => (
-                        <TableCell key={key} sx={resistanceValueSx(monster[key])}>
+                        <TableCell
+                          key={key}
+                          sx={resistanceValueSx(monster[key])}
+                        >
                           {formatResistanceValue(monster[key])}
                         </TableCell>
                       ))}
