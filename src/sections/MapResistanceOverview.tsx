@@ -1,3 +1,4 @@
+import { Fragment, useState } from "react";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -6,6 +7,11 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
+import IconButton from "@mui/material/IconButton";
+import Collapse from "@mui/material/Collapse";
+import Box from "@mui/material/Box";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { ItemGroup } from "../components/ChangelogComponents";
 
 type ResistanceRow = {
@@ -547,6 +553,17 @@ const resistanceByMonster = resistanceRows.reduce<
   return acc;
 }, {});
 
+const RESISTANCE_KEYS = [
+  "physical",
+  "magic",
+  "fire",
+  "light",
+  "cold",
+  "poison",
+] as const;
+
+type ResistanceKey = (typeof RESISTANCE_KEYS)[number];
+
 const mapSummary = mapRows.map((map) => {
   const immunities = map.monsters.reduce<ImmunityBucket>((acc, monsterId) => {
     const row = resistanceByMonster[monsterId];
@@ -563,18 +580,128 @@ const mapSummary = mapRows.map((map) => {
     return acc;
   }, emptyBucket());
 
+  const monsters = map.monsters
+    .map((monsterId) => resistanceByMonster[monsterId])
+    .filter((row): row is ResistanceRow => Boolean(row));
+
   return {
     name: map.name,
+    monsters,
     ...immunities,
   };
 });
 
+const headerCellSx = { color: "#e8d5b0", fontWeight: 700 };
+const bodyCellSx = { color: "#c9b8a0" };
+
+const formatResistanceValue = (value?: number) =>
+  value === undefined ? "—" : String(value);
+
+const resistanceValueSx = (value?: number) => ({
+  color: isImmune(value) ? "#e74c3c" : "#c9b8a0",
+  fontWeight: isImmune(value) ? 700 : 400,
+});
+
+type MapSummaryRowProps = {
+  row: (typeof mapSummary)[number];
+  open: boolean;
+  onToggle: () => void;
+};
+
+function MapSummaryRow({ row, open, onToggle }: MapSummaryRowProps) {
+  return (
+    <Fragment>
+      <TableRow
+        hover
+        onClick={onToggle}
+        sx={{
+          cursor: "pointer",
+          "& > *": { borderBottom: open ? "unset" : undefined },
+        }}
+      >
+        <TableCell sx={bodyCellSx}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
+            <IconButton
+              aria-label={open ? "Collapse map details" : "Expand map details"}
+              aria-expanded={open}
+              size="small"
+              onClick={(event) => {
+                event.stopPropagation();
+                onToggle();
+              }}
+              sx={{ color: "#e8d5b0" }}
+            >
+              {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+            </IconButton>
+            {row.name}
+          </Box>
+        </TableCell>
+        {RESISTANCE_KEYS.map((key) => (
+          <TableCell key={key} sx={bodyCellSx}>
+            {formatImmunityCell(row[key])}
+          </TableCell>
+        ))}
+      </TableRow>
+      <TableRow>
+        <TableCell
+          colSpan={1 + RESISTANCE_KEYS.length}
+          sx={{ py: 0, borderBottom: open ? undefined : "none" }}
+        >
+          <Collapse in={open} timeout="auto" unmountOnExit>
+            <Box sx={{ py: 1.5, px: 1 }}>
+              <Typography
+                sx={{ fontSize: "0.8rem", color: "#a89070", mb: 1 }}
+              >
+                Monster resistances (immune values highlighted)
+              </Typography>
+              <Table size="small" aria-label={`${row.name} monster resistances`}>
+                <TableHead>
+                  <TableRow>
+                    <TableCell sx={headerCellSx}>Monster</TableCell>
+                    {RESISTANCE_KEYS.map((key) => (
+                      <TableCell key={key} sx={headerCellSx}>
+                        {key.charAt(0).toUpperCase() + key.slice(1)}
+                      </TableCell>
+                    ))}
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {row.monsters.map((monster) => (
+                    <TableRow key={monster.id}>
+                      <TableCell sx={bodyCellSx}>{monster.id}</TableCell>
+                      {RESISTANCE_KEYS.map((key: ResistanceKey) => (
+                        <TableCell key={key} sx={resistanceValueSx(monster[key])}>
+                          {formatResistanceValue(monster[key])}
+                        </TableCell>
+                      ))}
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </Box>
+          </Collapse>
+        </TableCell>
+      </TableRow>
+    </Fragment>
+  );
+}
+
 export default function MapResistanceOverview() {
+  const [expandedMaps, setExpandedMaps] = useState<Record<string, boolean>>({});
+
+  const toggleMap = (mapName: string) => {
+    setExpandedMaps((prev) => ({
+      ...prev,
+      [mapName]: !prev[mapName],
+    }));
+  };
+
   return (
     <ItemGroup title="Map Resistance Overview">
       <Typography sx={{ fontSize: "0.85rem", color: "#a89070", mb: 1 }}>
-        Immunity threshold is resistance above 100. Cells show immune count and
-        immune values in brackets.
+        Immunity threshold is resistance at or above 100. Summary cells show
+        immune count and values in brackets. Expand a row for full monster
+        resistances.
       </Typography>
       <TableContainer
         component={Paper}
@@ -586,52 +713,22 @@ export default function MapResistanceOverview() {
         <Table size="small" aria-label="map resistance summary">
           <TableHead>
             <TableRow>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Level Name
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Physical
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Magic
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Fire
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Light
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Cold
-              </TableCell>
-              <TableCell sx={{ color: "#e8d5b0", fontWeight: 700 }}>
-                Poison
-              </TableCell>
+              <TableCell sx={headerCellSx}>Level Name</TableCell>
+              {RESISTANCE_KEYS.map((key) => (
+                <TableCell key={key} sx={headerCellSx}>
+                  {key.charAt(0).toUpperCase() + key.slice(1)}
+                </TableCell>
+              ))}
             </TableRow>
           </TableHead>
           <TableBody>
             {mapSummary.map((row) => (
-              <TableRow key={row.name}>
-                <TableCell sx={{ color: "#c9b8a0" }}>{row.name}</TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.physical)}
-                </TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.magic)}
-                </TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.fire)}
-                </TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.light)}
-                </TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.cold)}
-                </TableCell>
-                <TableCell sx={{ color: "#c9b8a0" }}>
-                  {formatImmunityCell(row.poison)}
-                </TableCell>
-              </TableRow>
+              <MapSummaryRow
+                key={row.name}
+                row={row}
+                open={Boolean(expandedMaps[row.name])}
+                onToggle={() => toggleMap(row.name)}
+              />
             ))}
           </TableBody>
         </Table>
